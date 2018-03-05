@@ -1,0 +1,14 @@
+{
+    "name": "e-kejaksaan/package-template",
+    "description": "Sample package",
+    "type": "module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Willy Nugraha",
+            "email": "willymiiee@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
