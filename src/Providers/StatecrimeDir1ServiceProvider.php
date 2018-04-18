@@ -1,11 +1,11 @@
 <?php
 
-namespace e_Kejaksaaan\Sample\Providers;
+namespace Regchain\StatecrimeDir1\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Routing\Router;
 
-class SampleServiceProvider extends ServiceProvider
+class StatecrimeDir1ServiceProvider extends ServiceProvider
 {
     /**
      * Indicates if loading of the provider is deferred.

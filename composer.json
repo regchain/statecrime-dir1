@@ -1,14 +1,29 @@
 {
-    "name": "e-kejaksaan/sample",
-    "description": "Sample package",
+    "name": "regchain/statecrime-dir1",
+    "description": "Register Perkara Penyelidikan / Penyidikan",
     "type": "module",
     "license": "MIT",
     "authors": [
         {
-            "name": "Willy Nugraha",
-            "email": "willymiiee@gmail.com"
+            "name": "Tonny H. Soerojo",
+            "email": "tonny@soerojo.com"
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "5.5.*",
+        "maatwebsite/excel": "~2.1.0",
+        "nesbot/carbon": "~1.21"
+    },
+    "autoload": {
+        "psr-4": {
+            "Regchain\\StatecrimeDir1\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0"
+        }
+    }
 }

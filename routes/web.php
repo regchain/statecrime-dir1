@@ -1,3 +1,3 @@
 <?php
 
-Route::get('/', 'SampleController@index');
+Route::get('/', 'HomeController@index');
